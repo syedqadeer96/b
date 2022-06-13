@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1655114976318" clover="3.2.0">
-  <project timestamp="1655114976319" name="All files">
+<coverage generated="1655118331903" clover="3.2.0">
+  <project timestamp="1655118331903" name="All files">
     <metrics statements="164" coveredstatements="15" conditionals="46" coveredconditionals="0" methods="75" coveredmethods="6" elements="285" coveredelements="21" complexity="0" loc="164" ncloc="164" packages="12" files="30" classes="30"/>
     <package name="src">
       <metrics statements="22" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="6" coveredmethods="0"/>
@@ -50,8 +50,8 @@
       </file>
       <file name="Avatar.tsx" path="/home/syedq/Desktop/Blinkist/blinkist/src/components/atoms/Avatar/Avatar.tsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.components.atoms.MyButton">
