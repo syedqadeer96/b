@@ -1,12 +1,4 @@
-import {
-  Box,
-  Container,
-  Grid,
-  makeStyles,
-  Stack,
-  TextField,
-  Typography,
-} from "@mui/material";
+import { Container, Grid, Stack, TextField, Typography } from "@mui/material";
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import CardProps from "../../CardProps";
@@ -18,7 +10,7 @@ import Footer from "../molecules/Footer/Footer";
 
 import { useNavigate } from "react-router-dom";
 import MoreHorizIcon from "@mui/icons-material/MoreHoriz";
-import MoreHorizTwoToneIcon from "@mui/icons-material/MoreHorizTwoTone";
+
 import { Search } from "@mui/icons-material";
 import MyButton from "../atoms/MyButton/MyButton";
 import MyCard from "../molecules/MyCard/MyCard";
@@ -82,7 +74,7 @@ const EntrepreneurshipPage = () => {
         }}
       />
 
-<Typography variant="h6" component="h2" sx={{    marginTop: 3}}>
+      <Typography variant="h6" component="h2" sx={{ marginTop: 3 }}>
         Trending Blinks
       </Typography>
 

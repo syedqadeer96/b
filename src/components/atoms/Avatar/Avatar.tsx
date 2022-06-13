@@ -1,6 +1,6 @@
 import React from 'react'
-import Avatar, { AvatarProps } from '@mui/material/Avatar';
-import { blue } from '@mui/material/colors';
+import Avatar from '@mui/material/Avatar';
+
 
 const MyAvatar = () => {
   return (

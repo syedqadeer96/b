@@ -1,9 +1,8 @@
 import * as React from 'react';
 import Box from '@mui/material/Box';
-import Tabs from '@mui/material/Tabs';
-import Tab from '@mui/material/Tab';
+
 import { TabContext, TabList } from '@mui/lab';
-import { useNavigate } from 'react-router-dom';
+
 import { createTheme, ThemeProvider } from "@mui/material";
 import { green } from '@mui/material/colors';
 interface ITabProps {
