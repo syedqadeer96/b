@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1655124990136" clover="3.2.0">
-  <project timestamp="1655124990137" name="All files">
-    <metrics statements="164" coveredstatements="20" conditionals="46" coveredconditionals="1" methods="75" coveredmethods="9" elements="285" coveredelements="30" complexity="0" loc="164" ncloc="164" packages="12" files="30" classes="30"/>
+<coverage generated="1655125599597" clover="3.2.0">
+  <project timestamp="1655125599597" name="All files">
+    <metrics statements="148" coveredstatements="20" conditionals="30" coveredconditionals="1" methods="69" coveredmethods="9" elements="247" coveredelements="30" complexity="0" loc="148" ncloc="148" packages="12" files="30" classes="30"/>
     <package name="src">
       <metrics statements="22" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="6" coveredmethods="0"/>
       <file name="App.tsx" path="/home/syedq/Desktop/Blinkist/blinkist/src/App.tsx">
@@ -213,7 +213,7 @@
       </file>
     </package>
     <package name="src.components.pages">
-      <metrics statements="68" coveredstatements="0" conditionals="28" coveredconditionals="0" methods="27" coveredmethods="0"/>
+      <metrics statements="52" coveredstatements="0" conditionals="12" coveredconditionals="0" methods="21" coveredmethods="0"/>
       <file name="BookDetailViewPage.tsx" path="/home/syedq/Desktop/Blinkist/blinkist/src/components/pages/BookDetailViewPage.tsx">
         <metrics statements="19" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="0"/>
         <line num="14" count="0" type="stmt"/>
@@ -237,7 +237,7 @@
         <line num="69" count="0" type="stmt"/>
       </file>
       <file name="EntrepreneurshipPage.tsx" path="/home/syedq/Desktop/Blinkist/blinkist/src/components/pages/EntrepreneurshipPage.tsx">
-        <metrics statements="47" coveredstatements="0" conditionals="28" coveredconditionals="0" methods="19" coveredmethods="0"/>
+        <metrics statements="31" coveredstatements="0" conditionals="12" coveredconditionals="0" methods="13" coveredmethods="0"/>
         <line num="18" count="0" type="stmt"/>
         <line num="19" count="0" type="stmt"/>
         <line num="21" count="0" type="stmt"/>
@@ -258,33 +258,17 @@
         <line num="58" count="0" type="stmt"/>
         <line num="67" count="0" type="stmt"/>
         <line num="84" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="85" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="86" count="0" type="stmt"/>
         <line num="98" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="99" count="0" type="stmt"/>
         <line num="105" count="0" type="stmt"/>
         <line num="110" count="0" type="stmt"/>
         <line num="128" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="129" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="130" count="0" type="stmt"/>
         <line num="142" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="143" count="0" type="stmt"/>
         <line num="149" count="0" type="stmt"/>
         <line num="154" count="0" type="stmt"/>
-        <line num="178" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="179" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="180" count="0" type="stmt"/>
-        <line num="192" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="193" count="0" type="stmt"/>
-        <line num="199" count="0" type="stmt"/>
-        <line num="204" count="0" type="stmt"/>
-        <line num="227" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="228" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="229" count="0" type="stmt"/>
-        <line num="241" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="242" count="0" type="stmt"/>
-        <line num="244" count="0" type="stmt"/>
-        <line num="249" count="0" type="stmt"/>
       </file>
       <file name="MyLibraryPage.tsx" path="/home/syedq/Desktop/Blinkist/blinkist/src/components/pages/MyLibraryPage.tsx">
         <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>

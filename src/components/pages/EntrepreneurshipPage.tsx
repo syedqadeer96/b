@@ -82,7 +82,7 @@ const EntrepreneurshipPage = () => {
         {searchInput.length > 1
           ? filteredResults.map((book: CardProps) => {
               if (book.state !== "Finished") {
-                if (book.category === "Trending blinks") {
+                
                   return (
                     <Grid item xs={12} sm={6} lg={4} key={book.id}>
                       <MyCard
@@ -121,12 +121,12 @@ const EntrepreneurshipPage = () => {
                       ></MyCard>
                     </Grid>
                   );
-                }
+                
               }
             })
           : APIData.map((book: CardProps) => {
               if (book.state !== "Finished") {
-                if (book.category === "Trending blinks") {
+               
                   return (
                     <Grid item xs={12} sm={6} lg={4} key={book.id}>
                       <MyCard
@@ -165,105 +165,12 @@ const EntrepreneurshipPage = () => {
                       ></MyCard>
                     </Grid>
                   );
-                }
+                
               }
             })}
       </Grid>
 
-      <Typography variant="h6" component="h2">
-        Just added
-      </Typography>
-      <Grid container spacing={2} marginLeft={0}>
-        {APIData.map((book: CardProps) => {
-          if (book.state !== "Finished") {
-            if (book.category === "Just added") {
-              return (
-                <Grid item xs={12} sm={6} lg={4} key={book.id}>
-                  <MyCard
-                    id={book.id}
-                    image={book.image}
-                    title={book.title}
-                    author={book.author}
-                    reads={book.reads}
-                    time={book.time}
-                    state={book.state}
-                    category={book.category}
-                    bu={(() => {
-                      if (book.state === "added to lib") {
-                        return (
-                          <Stack alignItems="flex-end" marginTop={1.5}>
-                            hhhhhh
-                          </Stack>
-                        );
-                      } else {
-                        return (
-                          <>
-                            <MyButton
-                              sx={{ mb: 7, pb: 5 }}
-                              onClick={() => {
-                                navigate("/BookDetailViewPage", {
-                                  state: { id: book.id },
-                                });
-                              }}
-                            >
-                              Add to lib
-                            </MyButton>
-                          </>
-                        );
-                      }
-                    })()}
-                  ></MyCard>
-                </Grid>
-              );
-            }
-          }
-        })}
-      </Grid>
-      <Typography variant="h6" component="h2">
-        Featured audio blinks
-      </Typography>
-      <Grid container spacing={2} marginLeft={0}>
-        {APIData.map((book: CardProps) => {
-          if (book.state !== "Finished") {
-            if (book.category === "Featured audio blinks") {
-              return (
-                <Grid item xs={12} sm={6} lg={4} key={book.id}>
-                  <MyCard
-                    id={book.id}
-                    image={book.image}
-                    title={book.title}
-                    author={book.author}
-                    reads={book.reads}
-                    time={book.time}
-                    state={book.state}
-                    category={book.category}
-                    bu={(() => {
-                      if (book.state === "added to lib") {
-                        return <MoreHorizIcon />;
-                      } else {
-                        return (
-                          <>
-                            <MyButton
-                              sx={{ mb: 7, pb: 5 }}
-                              onClick={() => {
-                                navigate("/BookDetailViewPage", {
-                                  state: { id: book.id },
-                                });
-                              }}
-                            >
-                              Add to lib
-                            </MyButton>
-                          </>
-                        );
-                      }
-                    })()}
-                  ></MyCard>
-                </Grid>
-              );
-            }
-          }
-        })}
-      </Grid>
+    
       <Footer />
     </Container>
   );

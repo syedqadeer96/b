@@ -66,7 +66,7 @@ return (
             </Button>
             <Button variant="contained"
               sx={{ backgroundColor: '#2CE080', color: '#03314B', ":hover": { bgcolor: "#00C263"}}}
-              onClick={(event) => finishedHandleClick(APIData)}
+              onClick={(_event) => finishedHandleClick(APIData)}
             >
               Finished Reading
             </Button>
