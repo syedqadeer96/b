@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1655126533097" clover="3.2.0">
-  <project timestamp="1655126533097" name="All files">
-    <metrics statements="143" coveredstatements="20" conditionals="30" coveredconditionals="1" methods="69" coveredmethods="9" elements="242" coveredelements="30" complexity="0" loc="143" ncloc="143" packages="12" files="30" classes="30"/>
+<coverage generated="1655126791264" clover="3.2.0">
+  <project timestamp="1655126791264" name="All files">
+    <metrics statements="148" coveredstatements="20" conditionals="30" coveredconditionals="1" methods="69" coveredmethods="9" elements="247" coveredelements="30" complexity="0" loc="148" ncloc="148" packages="12" files="30" classes="30"/>
     <package name="src">
-      <metrics statements="17" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="6" coveredmethods="0"/>
+      <metrics statements="22" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="6" coveredmethods="0"/>
       <file name="App.tsx" path="/home/syedq/Desktop/Blinkist/blinkist/src/App.tsx">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="22" count="0" type="stmt"/>
@@ -17,13 +17,18 @@
         <line num="18" count="0" type="stmt"/>
       </file>
       <file name="reportWebVitals.js" path="/home/syedq/Desktop/Blinkist/blinkist/src/reportWebVitals.js">
-        <metrics statements="6" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <metrics statements="11" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="0"/>
         <line num="2" count="0" type="stmt"/>
         <line num="3" count="0" type="stmt"/>
         <line num="4" count="0" type="cond" truecount="0" falsecount="4"/>
         <line num="5" count="0" type="stmt"/>
         <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
         <line num="11" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
       </file>
       <file name="reportWebVitals.ts" path="/home/syedq/Desktop/Blinkist/blinkist/src/reportWebVitals.ts">
         <metrics statements="8" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="0"/>
