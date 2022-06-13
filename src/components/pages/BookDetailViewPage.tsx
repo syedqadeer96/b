@@ -26,12 +26,12 @@ const BookDetailViewPage = () => {
   }
   useEffect(() => { getData() });
 
-  const finishedHandleClick = async (clickedCard: CardProps) => {
+  const finishedHandleClick = async (_clickedCard: CardProps) => {
     //console.log(cards.id)
     await axios.patch(`http://localhost:8007/books/${index.id}`, { state: 'Finished' })
     navigate('/')
   }
-  const readNowHandleClick = async (clickedCard: CardProps) => {
+  const readNowHandleClick = async (_clickedCard: CardProps) => {
     //console.log(cards.id)
     await axios.patch(`http://localhost:8007/books/${index.id}`, { state: 'added to lib' })
     navigate('/')
@@ -61,7 +61,7 @@ return (
           </Stack>
           <Stack spacing={7} direction="row" sx={{ marginTop: 12 }}>
             <Button variant="outlined" sx={{ color: '#22C870' }} 
-            onClick={(event) => readNowHandleClick(APIData)}>
+            onClick={(_event) => readNowHandleClick(APIData)}>
               Read Now
             </Button>
             <Button variant="contained"

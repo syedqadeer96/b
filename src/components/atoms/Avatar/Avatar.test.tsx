@@ -2,7 +2,7 @@
   
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import AvatarComponent from './Avatar' ;
+import AvatarComponent from './MyAvatar' ;
 
 test('renders Avatar Component', () => {
   render(<AvatarComponent></AvatarComponent>);

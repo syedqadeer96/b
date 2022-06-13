@@ -11,7 +11,7 @@ import { Stack } from "@mui/material";
 import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
 
 import MyExplore from "../../molecules/Explore/Explore";
-import MyAvatar from "../../atoms/Avatar/Avatar";
+import MyAvatar from "../../atoms/Avatar/MyAvatar";
 
 
 const MyAppBar = () => {

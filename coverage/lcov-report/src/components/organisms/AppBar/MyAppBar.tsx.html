@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Code coverage report for src/components/molecules/MyTab/MyTab.tsx</title>
+    <title>Code coverage report for src/components/organisms/AppBar/MyAppBar.tsx</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="../../../../prettify.css" />
     <link rel="stylesheet" href="../../../../base.css" />
@@ -19,13 +19,13 @@
 <body>
 <div class='wrapper'>
     <div class='pad1'>
-        <h1><a href="../../../../index.html">All files</a> / <a href="index.html">src/components/molecules/MyTab</a> MyTab.tsx</h1>
+        <h1><a href="../../../../index.html">All files</a> / <a href="index.html">src/components/organisms/AppBar</a> MyAppBar.tsx</h1>
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">0% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>0/5</span>
+                <span class='fraction'>0/2</span>
             </div>
         
             
@@ -39,14 +39,14 @@
             <div class='fl pad1y space-right2'>
                 <span class="strong">0% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>0/2</span>
+                <span class='fraction'>0/1</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">0% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>0/5</span>
+                <span class='fraction'>0/2</span>
             </div>
         
             
@@ -97,7 +97,28 @@
 <a name='L32'></a><a href='#L32'>32</a>
 <a name='L33'></a><a href='#L33'>33</a>
 <a name='L34'></a><a href='#L34'>34</a>
-<a name='L35'></a><a href='#L35'>35</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<a name='L35'></a><a href='#L35'>35</a>
+<a name='L36'></a><a href='#L36'>36</a>
+<a name='L37'></a><a href='#L37'>37</a>
+<a name='L38'></a><a href='#L38'>38</a>
+<a name='L39'></a><a href='#L39'>39</a>
+<a name='L40'></a><a href='#L40'>40</a>
+<a name='L41'></a><a href='#L41'>41</a>
+<a name='L42'></a><a href='#L42'>42</a>
+<a name='L43'></a><a href='#L43'>43</a>
+<a name='L44'></a><a href='#L44'>44</a>
+<a name='L45'></a><a href='#L45'>45</a>
+<a name='L46'></a><a href='#L46'>46</a>
+<a name='L47'></a><a href='#L47'>47</a>
+<a name='L48'></a><a href='#L48'>48</a>
+<a name='L49'></a><a href='#L49'>49</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -109,11 +130,6 @@
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -131,48 +147,74 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import * as React from 'react';
-import Box from '@mui/material/Box';
-import Tab from '@mui/material/Tab';
-import TabContext from '@mui/lab/TabContext';
-import TabList from '@mui/lab/TabList';
-import TabPanel from '@mui/lab/TabPanel';
-import Rendercards from '../Rendercards/Rendercards';
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import * as React from "react";
+import AppBar from "@mui/material/AppBar";
+&nbsp;
+import Toolbar from "@mui/material/Toolbar";
+import Typography from "@mui/material/Typography";
 &nbsp;
 &nbsp;
-const  LabTabs = <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >()</span> =&gt; {</span>
-  const [value, setValue] = <span class="cstat-no" title="statement not covered" >React.useState('1');</span>
 &nbsp;
-  const handleChange = <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >(e</span>vent: React.SyntheticEvent, newValue: string) =&gt; {</span>
-<span class="cstat-no" title="statement not covered" >    setValue(newValue);</span>
-  };
+import { Stack } from "@mui/material";
 &nbsp;
+import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
+&nbsp;
+import MyExplore from "../../molecules/Explore/Explore";
+import MyAvatar from "../../atoms/Avatar/MyAvatar";
+&nbsp;
+&nbsp;
+const MyAppBar = <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >()</span> =&gt; {</span>
 <span class="cstat-no" title="statement not covered" >  return (</span>
-    &lt;Box sx={{ width: '100%', typography: 'body1' }}&gt;
-      &lt;TabContext value={value}&gt;
-        &lt;Box sx={{ borderBottom: 1, borderColor: 'divider' }}&gt;
-          &lt;TabList onChange={handleChange} aria-label="lab API tabs example"&gt;
-            &lt;Tab label="Currently reading" value="1" /&gt;
-            &lt;Tab label="Finished" value="2" /&gt;
-         
-          &lt;/TabList&gt;
-        &lt;/Box&gt;
-        &lt;TabPanel value="1"&gt;&lt;Rendercards state1='added to lib'&gt;&lt;/Rendercards&gt;&lt;/TabPanel&gt;
-        &lt;TabPanel value="2"&gt;&lt;Rendercards state1='Finished'&gt;&lt;/Rendercards&gt;&lt;/TabPanel&gt;
-     
-      &lt;/TabContext&gt;
-    &lt;/Box&gt;
-  );
-}
+    &lt;AppBar
+      elevation={0}
+      position="sticky"
+      sx={{ backgroundColor: "#FFFFFF", color: "black" }}
+      enableColorOnDark={true}
+    &gt;
+      &lt;Toolbar&gt;
+        &lt;Stack direction="row" spacing={50}&gt;
+          &lt;Stack direction="row" spacing={10}&gt;
+            &lt;img
+              src="http://127.0.0.1:8887/Blinklist.png"
+              alt="bl-img"
+              width={125}
+              height={26}
+              style={{ paddingTop: 8 }}
+            /&gt;
+            &lt;SearchOutlinedIcon sx={{ paddingTop: 1 }} /&gt;
 &nbsp;
-export default LabTabs;</pre></td></tr></table></pre>
+            &lt;MyExplore&gt;&lt;/MyExplore&gt;
+            &lt;Typography variant="body1" pt={1}&gt;
+              My Library
+            &lt;/Typography&gt;
+          &lt;/Stack&gt;
+          &lt;MyAvatar&gt;&lt;/MyAvatar&gt;
+        &lt;/Stack&gt;
+      &lt;/Toolbar&gt;
+    &lt;/AppBar&gt;
+  );
+};
+export default MyAppBar;
+&nbsp;</pre></td></tr></table></pre>
 
                 <div class='push'></div><!-- for sticky footer -->
             </div><!-- /wrapper -->
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at Mon Jun 13 2022 18:15:53 GMT+0530 (India Standard Time)
+                at Mon Jun 13 2022 18:26:30 GMT+0530 (India Standard Time)
             </div>
         <script src="../../../../prettify.js"></script>
         <script>

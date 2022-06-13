@@ -1,9 +1,9 @@
 import { Container } from "@mui/material";
 import React from "react";
 
-import MyAppBar from "../organisms/AppBar/AppBar";
+import MyAppBar from "../organisms/AppBar/MyAppBar";
 import Footer from "../molecules/Footer/Footer";
-import LabTabs from "../molecules/MyTab/MyTab";
+import LabTabs from "../molecules/MyTab/LabTabs";
 
 const MyLibraryPage = () => {
   return (

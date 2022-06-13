@@ -25,7 +25,7 @@ const NavTabs = ({ ...props }: ITabProps) => {
 
   const [value, setValue] = React.useState('0');
 
-  const handleChange = (event: React.SyntheticEvent, newValue: string) => {
+  const handleChange = (_event: React.SyntheticEvent, newValue: string) => {
     setValue(newValue);
 
   };

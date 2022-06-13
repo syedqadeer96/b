@@ -1,4 +1,4 @@
-import Avatar from "./Avatar";
+import Avatar from "./MyAvatar";
 export default {
   title: "components/molecules/Explore",
   component: Avatar,

@@ -5,7 +5,7 @@ import CardProps from "../../CardProps";
 
 import Banner from "../molecules/Banner/Banner";
 
-import MyAppBar from "../organisms/AppBar/AppBar";
+import MyAppBar from "../organisms/AppBar/MyAppBar";
 import Footer from "../molecules/Footer/Footer";
 
 import { useNavigate } from "react-router-dom";

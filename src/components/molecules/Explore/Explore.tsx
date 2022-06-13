@@ -2,9 +2,8 @@
   
 import React from 'react'
 import KeyboardArrowDownOutlinedIcon from '@mui/icons-material/KeyboardArrowDownOutlined';
-import { Button, IconButton, Modal, Paper, Stack } from '@mui/material';
-import { Typography } from '@mui/material';
-import ExploreTabs from './ExploreTab'
+import { Typography ,IconButton, Modal, Paper, Stack } from '@mui/material';
+import ExploreTabs from './ExploreTabs'
 const Explore=()=> {
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);

@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import ExploreTab from './ExploreTab';
+import ExploreTab from './ExploreTabs';
 
 
 test('renders ExploreTabs 1', () => {

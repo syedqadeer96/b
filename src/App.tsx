@@ -7,12 +7,9 @@ import './App.css'
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { AppBar, Container } from '@mui/material';
-import Rendercards from './components/molecules/Rendercards/Rendercards';
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-import MyAppBar from './components/organisms/AppBar/AppBar';
+import MyAppBar from './components/organisms/AppBar/MyAppBar';
 
-import MyExplore from './components/molecules/Explore/Explore';
-import Footer from './components/molecules/Footer/Footer';
 
 
 

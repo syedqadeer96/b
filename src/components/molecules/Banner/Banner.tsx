@@ -1,4 +1,4 @@
-import { Card, CardContent, CardMedia, Container, Stack, Typography } from '@mui/material'
+import { Card, CardContent, CardMedia, Stack, Typography } from '@mui/material'
 import { Box } from '@mui/system'
 import React from 'react'
 interface BannerProps{
