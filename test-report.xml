@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="/home/syedq/Desktop/Blinkist/blinkist/src/components/molecules/Banner/Banner.test.tsx">
+    <testCase name="renders Banner" duration="209"/>
+  </file>
+  <file path="/home/syedq/Desktop/Blinkist/blinkist/src/components/molecules/Explore/ExploreTab.test.tsx">
+    <testCase name="renders ExploreTabs 1" duration="284"/>
+    <testCase name="renders ExploreTabs 2" duration="60"/>
+  </file>
+  <file path="/home/syedq/Desktop/Blinkist/blinkist/src/components/atoms/Avatar/Avatar.test.tsx">
+    <testCase name="renders Avatar Component" duration="108"/>
+  </file>
+  <file path="/home/syedq/Desktop/Blinkist/blinkist/src/components/atoms/MyButton/MyButton.test.tsx">
+    <testCase name="renders learn react link" duration="84"/>
+  </file>
+</testExecutions>
