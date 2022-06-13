@@ -3,14 +3,9 @@ import * as React from 'react';
 import Tab from '@mui/material/Tab';
 
 import TabPanel from '@mui/lab/TabPanel';
-import { TabsProps } from '@mui/material';
+
 import NavTabs from './NavTabs';
-
-
-interface LibTabProps extends TabsProps{
-
-}
- const LibTab=({...props}:LibTabProps)=> {
+const LibTab=()=> {
   
   const tabValues=[
     {

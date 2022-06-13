@@ -6,8 +6,8 @@ import { Box } from '@mui/system';
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 import AccessTimeOutlinedIcon from '@mui/icons-material/AccessTimeOutlined';
 
-import { useLocation } from "react-router-dom";
-import { useNavigate } from 'react-router-dom';
+import { useLocation,useNavigate } from "react-router-dom";
+
 import CardProps from '../../CardProps';
 import Footer from "../molecules/Footer/Footer";
 import LibTab from '../organisms/LibTab/LibTab';
