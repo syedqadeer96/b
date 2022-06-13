@@ -39,7 +39,7 @@ const MyAppBar = () => {
               My Library
             </Typography>
           </Stack>
-          <MyAvatar variant="circular">A</MyAvatar>
+          <MyAvatar></MyAvatar>
         </Stack>
       </Toolbar>
     </AppBar>
