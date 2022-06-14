@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1655126791264" clover="3.2.0">
-  <project timestamp="1655126791264" name="All files">
-    <metrics statements="148" coveredstatements="20" conditionals="30" coveredconditionals="1" methods="69" coveredmethods="9" elements="247" coveredelements="30" complexity="0" loc="148" ncloc="148" packages="12" files="30" classes="30"/>
+<coverage generated="1655168976640" clover="3.2.0">
+  <project timestamp="1655168976640" name="All files">
+    <metrics statements="148" coveredstatements="46" conditionals="30" coveredconditionals="1" methods="69" coveredmethods="18" elements="247" coveredelements="65" complexity="0" loc="148" ncloc="148" packages="12" files="30" classes="30"/>
     <package name="src">
       <metrics statements="22" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="6" coveredmethods="0"/>
       <file name="App.tsx" path="/home/syedq/Desktop/Blinkist/blinkist/src/App.tsx">
@@ -50,8 +50,8 @@
       </file>
       <file name="MyAvatar.tsx" path="/home/syedq/Desktop/Blinkist/blinkist/src/components/atoms/Avatar/MyAvatar.tsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
       </file>
     </package>
     <package name="src.components.atoms.MyButton">
@@ -64,7 +64,7 @@
       </file>
       <file name="MyButton.tsx" path="/home/syedq/Desktop/Blinkist/blinkist/src/components/atoms/MyButton/MyButton.tsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="7" count="1" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
         <line num="8" count="1" type="stmt"/>
       </file>
     </package>
@@ -81,22 +81,22 @@
       </file>
     </package>
     <package name="src.components.molecules.Explore">
-      <metrics statements="19" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="11" coveredmethods="3"/>
+      <metrics statements="19" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="11" coveredmethods="4"/>
       <file name="Explore.stories.tsx" path="/home/syedq/Desktop/Blinkist/blinkist/src/components/molecules/Explore/Explore.stories.tsx">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="11" count="0" type="stmt"/>
       </file>
       <file name="Explore.tsx" path="/home/syedq/Desktop/Blinkist/blinkist/src/components/molecules/Explore/Explore.tsx">
-        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
-        <line num="7" count="0" type="stmt"/>
-        <line num="8" count="0" type="stmt"/>
-        <line num="9" count="0" type="stmt"/>
-        <line num="10" count="0" type="stmt"/>
-        <line num="11" count="0" type="stmt"/>
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
       </file>
       <file name="ExploreTabs.tsx" path="/home/syedq/Desktop/Blinkist/blinkist/src/components/molecules/Explore/ExploreTabs.tsx">
         <metrics statements="13" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="3"/>
-        <line num="15" count="1" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
         <line num="16" count="2" type="stmt"/>
         <line num="18" count="2" type="stmt"/>
         <line num="19" count="2" type="stmt"/>
@@ -131,21 +131,21 @@
       </file>
       <file name="MyCard.tsx" path="/home/syedq/Desktop/Blinkist/blinkist/src/components/molecules/MyCard/MyCard.tsx">
         <metrics statements="4" coveredstatements="3" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
-        <line num="20" count="1" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
         <line num="22" count="3" type="stmt"/>
         <line num="46" count="3" type="cond" truecount="1" falsecount="1"/>
         <line num="47" count="0" type="stmt"/>
       </file>
     </package>
     <package name="src.components.molecules.MyTab">
-      <metrics statements="6" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+      <metrics statements="6" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
       <file name="LabTabs.tsx" path="/home/syedq/Desktop/Blinkist/blinkist/src/components/molecules/MyTab/LabTabs.tsx">
-        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="10" count="0" type="stmt"/>
-        <line num="11" count="0" type="stmt"/>
-        <line num="13" count="0" type="stmt"/>
+        <metrics statements="5" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
         <line num="14" count="0" type="stmt"/>
-        <line num="17" count="0" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
       </file>
       <file name="MyTab.stories.tsx" path="/home/syedq/Desktop/Blinkist/blinkist/src/components/molecules/MyTab/MyTab.stories.tsx">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
@@ -153,19 +153,19 @@
       </file>
     </package>
     <package name="src.components.molecules.Rendercards">
-      <metrics statements="15" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="7" coveredmethods="0"/>
+      <metrics statements="15" coveredstatements="5" conditionals="8" coveredconditionals="0" methods="7" coveredmethods="2"/>
       <file name="Rendercards.stories.tsx" path="/home/syedq/Desktop/Blinkist/blinkist/src/components/molecules/Rendercards/Rendercards.stories.tsx">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="14" count="0" type="stmt"/>
       </file>
       <file name="Rendercards.tsx" path="/home/syedq/Desktop/Blinkist/blinkist/src/components/molecules/Rendercards/Rendercards.tsx">
-        <metrics statements="14" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="6" coveredmethods="0"/>
-        <line num="16" count="0" type="stmt"/>
-        <line num="17" count="0" type="stmt"/>
-        <line num="18" count="0" type="stmt"/>
-        <line num="19" count="0" type="stmt"/>
+        <metrics statements="14" coveredstatements="5" conditionals="8" coveredconditionals="0" methods="6" coveredmethods="2"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
         <line num="20" count="0" type="stmt"/>
-        <line num="24" count="0" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
         <line num="27" count="0" type="cond" truecount="0" falsecount="4"/>
         <line num="28" count="0" type="stmt"/>
         <line num="43" count="0" type="stmt"/>
@@ -177,39 +177,39 @@
       </file>
     </package>
     <package name="src.components.organisms.AppBar">
-      <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <metrics statements="3" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
       <file name="AppBar.stories.tsx" path="/home/syedq/Desktop/Blinkist/blinkist/src/components/organisms/AppBar/AppBar.stories.tsx">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="13" count="0" type="stmt"/>
       </file>
       <file name="MyAppBar.tsx" path="/home/syedq/Desktop/Blinkist/blinkist/src/components/organisms/AppBar/MyAppBar.tsx">
-        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="17" count="0" type="stmt"/>
-        <line num="18" count="0" type="stmt"/>
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.components.organisms.LibTab">
-      <metrics statements="12" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="0"/>
+      <metrics statements="12" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="4"/>
       <file name="LibTab.stories.tsx" path="/home/syedq/Desktop/Blinkist/blinkist/src/components/organisms/LibTab/LibTab.stories.tsx">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="13" count="0" type="stmt"/>
       </file>
       <file name="LibTab.tsx" path="/home/syedq/Desktop/Blinkist/blinkist/src/components/organisms/LibTab/LibTab.tsx">
-        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
-        <line num="8" count="0" type="stmt"/>
-        <line num="10" count="0" type="stmt"/>
-        <line num="28" count="0" type="stmt"/>
-        <line num="30" count="0" type="stmt"/>
-        <line num="34" count="0" type="stmt"/>
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="4" type="stmt"/>
+        <line num="28" count="4" type="stmt"/>
+        <line num="30" count="12" type="stmt"/>
+        <line num="34" count="12" type="stmt"/>
       </file>
       <file name="NavTabs.tsx" path="/home/syedq/Desktop/Blinkist/blinkist/src/components/organisms/LibTab/NavTabs.tsx">
-        <metrics statements="6" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="14" count="0" type="stmt"/>
-        <line num="24" count="0" type="stmt"/>
-        <line num="26" count="0" type="stmt"/>
-        <line num="28" count="0" type="stmt"/>
+        <metrics statements="6" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="26" count="3" type="stmt"/>
+        <line num="28" count="3" type="stmt"/>
         <line num="29" count="0" type="stmt"/>
-        <line num="33" count="0" type="stmt"/>
+        <line num="33" count="3" type="stmt"/>
       </file>
     </package>
     <package name="src.components.pages">
