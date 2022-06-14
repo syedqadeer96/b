@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1655174059270" clover="3.2.0">
-  <project timestamp="1655174059270" name="All files">
+<coverage generated="1655193307932" clover="3.2.0">
+  <project timestamp="1655193307932" name="All files">
     <metrics statements="148" coveredstatements="47" conditionals="30" coveredconditionals="2" methods="69" coveredmethods="18" elements="247" coveredelements="67" complexity="0" loc="148" ncloc="148" packages="12" files="30" classes="30"/>
     <package name="src">
       <metrics statements="22" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="6" coveredmethods="0"/>
@@ -131,10 +131,10 @@
       </file>
       <file name="MyCard.tsx" path="/home/syedq/Desktop/Blinkist/blinkist/src/components/molecules/MyCard/MyCard.tsx">
         <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
-        <line num="20" count="2" type="stmt"/>
-        <line num="22" count="4" type="stmt"/>
-        <line num="46" count="4" type="cond" truecount="2" falsecount="0"/>
-        <line num="47" count="1" type="stmt"/>
+        <line num="20" count="3" type="stmt"/>
+        <line num="22" count="8" type="stmt"/>
+        <line num="46" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="47" count="2" type="stmt"/>
       </file>
     </package>
     <package name="src.components.molecules.MyTab">
