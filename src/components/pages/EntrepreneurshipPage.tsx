@@ -9,7 +9,7 @@ import MyAppBar from "../organisms/AppBar/MyAppBar";
 import Footer from "../molecules/Footer/Footer";
 
 import { useNavigate } from "react-router-dom";
-import MoreHorizIcon from "@mui/icons-material/MoreHoriz";
+
 
 import { Search } from "@mui/icons-material";
 import MyButton from "../atoms/MyButton/MyButton";
