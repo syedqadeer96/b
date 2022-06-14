@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1655193307932" clover="3.2.0">
-  <project timestamp="1655193307932" name="All files">
-    <metrics statements="148" coveredstatements="47" conditionals="30" coveredconditionals="2" methods="69" coveredmethods="18" elements="247" coveredelements="67" complexity="0" loc="148" ncloc="148" packages="12" files="30" classes="30"/>
+<coverage generated="1655203853411" clover="3.2.0">
+  <project timestamp="1655203853411" name="All files">
+    <metrics statements="148" coveredstatements="49" conditionals="30" coveredconditionals="2" methods="69" coveredmethods="19" elements="247" coveredelements="70" complexity="0" loc="148" ncloc="148" packages="13" files="30" classes="30"/>
     <package name="src">
       <metrics statements="22" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="6" coveredmethods="0"/>
       <file name="App.tsx" path="/home/syedq/Desktop/Blinkist/blinkist/src/App.tsx">
@@ -119,7 +119,7 @@
       </file>
       <file name="Footer.tsx" path="/home/syedq/Desktop/Blinkist/blinkist/src/components/molecules/Footer/Footer.tsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="6" count="1" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
         <line num="7" count="7" type="stmt"/>
       </file>
     </package>
@@ -196,7 +196,7 @@
       </file>
       <file name="LibTab.tsx" path="/home/syedq/Desktop/Blinkist/blinkist/src/components/organisms/LibTab/LibTab.tsx">
         <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
-        <line num="8" count="1" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
         <line num="10" count="4" type="stmt"/>
         <line num="28" count="4" type="stmt"/>
         <line num="30" count="12" type="stmt"/>
@@ -204,8 +204,8 @@
       </file>
       <file name="NavTabs.tsx" path="/home/syedq/Desktop/Blinkist/blinkist/src/components/organisms/LibTab/NavTabs.tsx">
         <metrics statements="6" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
-        <line num="14" count="1" type="stmt"/>
-        <line num="24" count="1" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
         <line num="26" count="3" type="stmt"/>
         <line num="28" count="3" type="stmt"/>
         <line num="29" count="0" type="stmt"/>
@@ -213,29 +213,7 @@
       </file>
     </package>
     <package name="src.components.pages">
-      <metrics statements="52" coveredstatements="0" conditionals="12" coveredconditionals="0" methods="21" coveredmethods="0"/>
-      <file name="BookDetailViewPage.tsx" path="/home/syedq/Desktop/Blinkist/blinkist/src/components/pages/BookDetailViewPage.tsx">
-        <metrics statements="19" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="0"/>
-        <line num="14" count="0" type="stmt"/>
-        <line num="16" count="0" type="stmt"/>
-        <line num="17" count="0" type="stmt"/>
-        <line num="18" count="0" type="stmt"/>
-        <line num="19" count="0" type="stmt"/>
-        <line num="20" count="0" type="stmt"/>
-        <line num="21" count="0" type="stmt"/>
-        <line num="22" count="0" type="stmt"/>
-        <line num="24" count="0" type="stmt"/>
-        <line num="27" count="0" type="stmt"/>
-        <line num="29" count="0" type="stmt"/>
-        <line num="31" count="0" type="stmt"/>
-        <line num="32" count="0" type="stmt"/>
-        <line num="34" count="0" type="stmt"/>
-        <line num="36" count="0" type="stmt"/>
-        <line num="37" count="0" type="stmt"/>
-        <line num="40" count="0" type="stmt"/>
-        <line num="64" count="0" type="stmt"/>
-        <line num="69" count="0" type="stmt"/>
-      </file>
+      <metrics statements="33" coveredstatements="0" conditionals="12" coveredconditionals="0" methods="14" coveredmethods="0"/>
       <file name="EntrepreneurshipPage.tsx" path="/home/syedq/Desktop/Blinkist/blinkist/src/components/pages/EntrepreneurshipPage.tsx">
         <metrics statements="31" coveredstatements="0" conditionals="12" coveredconditionals="0" methods="13" coveredmethods="0"/>
         <line num="18" count="0" type="stmt"/>
@@ -274,6 +252,31 @@
         <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="8" count="0" type="stmt"/>
         <line num="9" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.pages.BookDetailViewPage">
+      <metrics statements="19" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="1"/>
+      <file name="BookDetailViewPage.tsx" path="/home/syedq/Desktop/Blinkist/blinkist/src/components/pages/BookDetailViewPage/BookDetailViewPage.tsx">
+        <metrics statements="19" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="1"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="64" count="0" type="stmt"/>
+        <line num="69" count="0" type="stmt"/>
       </file>
     </package>
   </project>

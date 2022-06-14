@@ -8,9 +8,9 @@ import AccessTimeOutlinedIcon from '@mui/icons-material/AccessTimeOutlined';
 
 import { useLocation,useNavigate } from "react-router-dom";
 
-import CardProps from '../../CardProps';
-import Footer from "../molecules/Footer/Footer";
-import LibTab from '../organisms/LibTab/LibTab';
+import CardProps from '../../../CardProps';
+import Footer from "../../molecules/Footer/Footer";
+import LibTab from '../../organisms/LibTab/LibTab';
 const BookDetailViewPage = () => {
 
   const location = useLocation();

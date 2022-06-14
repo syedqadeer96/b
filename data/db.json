@@ -13,7 +13,7 @@
     {
       "author": "Steve Glaveski",
       "title": "Employee to Entrepreneur",
-      "state": "Finished",
+      "state": "added to lib",
       "image": "http://127.0.0.1:8887/employeeToEntrepreneurship.png",
       "time": "15-minute read",
       "category": "Trending blinks",
@@ -22,7 +22,7 @@
     {
       "author": "Trey Gowdy",
       "title": "Doesn’t Hurt to Ask",
-      "state": "",
+      "state": "added to lib",
       "image": "http://127.0.0.1:8887/DoesntHurtToAsk.png",
       "time": "13-minute read",
       "reads": "1.9k reads",
@@ -51,7 +51,7 @@
     {
       "author": "Debbie King",
       "title": "Loving Your Business",
-      "state": "Finished",
+      "state": "added to lib",
       "image": "http://127.0.0.1:8887/lovingYourBusiness.png",
       "time": "13-minute read",
       "category": "Trending blinks",
@@ -88,7 +88,7 @@
     {
       "author": "Kathleen Shannon and Emily",
       "title": "Being Boss",
-      "state": "added to lib",
+      "state": "",
       "image": "http://127.0.0.1:8887/beingBoss.png",
       "time": "13-minute read",
       "reads": "1.9k reads",

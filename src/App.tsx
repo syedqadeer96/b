@@ -16,7 +16,7 @@ import MyAppBar from './components/organisms/AppBar/MyAppBar';
 import EntrepreneurshipPage from './components/pages/EntrepreneurshipPage';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import MyLibraryPage from './components/pages/MyLibraryPage';
-import BookDetailViewPage from './components/pages/BookDetailViewPage';
+import BookDetailViewPage from './components/pages/BookDetailViewPage/BookDetailViewPage';
 
 function App() {
   return (
