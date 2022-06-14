@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1655203853411" clover="3.2.0">
-  <project timestamp="1655203853411" name="All files">
-    <metrics statements="148" coveredstatements="49" conditionals="30" coveredconditionals="2" methods="69" coveredmethods="19" elements="247" coveredelements="70" complexity="0" loc="148" ncloc="148" packages="13" files="30" classes="30"/>
+<coverage generated="1655205117364" clover="3.2.0">
+  <project timestamp="1655205117364" name="All files">
+    <metrics statements="148" coveredstatements="51" conditionals="30" coveredconditionals="2" methods="69" coveredmethods="20" elements="247" coveredelements="73" complexity="0" loc="148" ncloc="148" packages="14" files="30" classes="30"/>
     <package name="src">
       <metrics statements="22" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="6" coveredmethods="0"/>
       <file name="App.tsx" path="/home/syedq/Desktop/Blinkist/blinkist/src/App.tsx">
@@ -50,7 +50,7 @@
       </file>
       <file name="MyAvatar.tsx" path="/home/syedq/Desktop/Blinkist/blinkist/src/components/atoms/Avatar/MyAvatar.tsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="5" count="2" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
         <line num="6" count="2" type="stmt"/>
       </file>
     </package>
@@ -64,7 +64,7 @@
       </file>
       <file name="MyButton.tsx" path="/home/syedq/Desktop/Blinkist/blinkist/src/components/atoms/MyButton/MyButton.tsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="7" count="2" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
         <line num="8" count="1" type="stmt"/>
       </file>
     </package>
@@ -76,7 +76,7 @@
       </file>
       <file name="Banner.tsx" path="/home/syedq/Desktop/Blinkist/blinkist/src/components/molecules/Banner/Banner.tsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="9" count="1" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
         <line num="10" count="1" type="stmt"/>
       </file>
     </package>
@@ -88,7 +88,7 @@
       </file>
       <file name="Explore.tsx" path="/home/syedq/Desktop/Blinkist/blinkist/src/components/molecules/Explore/Explore.tsx">
         <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
-        <line num="7" count="1" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
         <line num="8" count="1" type="stmt"/>
         <line num="9" count="1" type="stmt"/>
         <line num="10" count="1" type="stmt"/>
@@ -96,7 +96,7 @@
       </file>
       <file name="ExploreTabs.tsx" path="/home/syedq/Desktop/Blinkist/blinkist/src/components/molecules/Explore/ExploreTabs.tsx">
         <metrics statements="13" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="3"/>
-        <line num="15" count="3" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
         <line num="16" count="3" type="stmt"/>
         <line num="18" count="3" type="stmt"/>
         <line num="19" count="3" type="stmt"/>
@@ -119,7 +119,7 @@
       </file>
       <file name="Footer.tsx" path="/home/syedq/Desktop/Blinkist/blinkist/src/components/molecules/Footer/Footer.tsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="6" count="2" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
         <line num="7" count="7" type="stmt"/>
       </file>
     </package>
@@ -131,7 +131,7 @@
       </file>
       <file name="MyCard.tsx" path="/home/syedq/Desktop/Blinkist/blinkist/src/components/molecules/MyCard/MyCard.tsx">
         <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
-        <line num="20" count="3" type="stmt"/>
+        <line num="20" count="4" type="stmt"/>
         <line num="22" count="8" type="stmt"/>
         <line num="46" count="8" type="cond" truecount="2" falsecount="0"/>
         <line num="47" count="2" type="stmt"/>
@@ -184,7 +184,7 @@
       </file>
       <file name="MyAppBar.tsx" path="/home/syedq/Desktop/Blinkist/blinkist/src/components/organisms/AppBar/MyAppBar.tsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="17" count="1" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
         <line num="18" count="1" type="stmt"/>
       </file>
     </package>
@@ -213,41 +213,7 @@
       </file>
     </package>
     <package name="src.components.pages">
-      <metrics statements="33" coveredstatements="0" conditionals="12" coveredconditionals="0" methods="14" coveredmethods="0"/>
-      <file name="EntrepreneurshipPage.tsx" path="/home/syedq/Desktop/Blinkist/blinkist/src/components/pages/EntrepreneurshipPage.tsx">
-        <metrics statements="31" coveredstatements="0" conditionals="12" coveredconditionals="0" methods="13" coveredmethods="0"/>
-        <line num="18" count="0" type="stmt"/>
-        <line num="19" count="0" type="stmt"/>
-        <line num="21" count="0" type="stmt"/>
-        <line num="22" count="0" type="stmt"/>
-        <line num="23" count="0" type="stmt"/>
-        <line num="25" count="0" type="stmt"/>
-        <line num="26" count="0" type="stmt"/>
-        <line num="37" count="0" type="stmt"/>
-        <line num="38" count="0" type="stmt"/>
-        <line num="39" count="0" type="stmt"/>
-        <line num="43" count="0" type="stmt"/>
-        <line num="44" count="0" type="stmt"/>
-        <line num="45" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="46" count="0" type="stmt"/>
-        <line num="47" count="0" type="stmt"/>
-        <line num="52" count="0" type="stmt"/>
-        <line num="54" count="0" type="stmt"/>
-        <line num="58" count="0" type="stmt"/>
-        <line num="67" count="0" type="stmt"/>
-        <line num="84" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="86" count="0" type="stmt"/>
-        <line num="98" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="99" count="0" type="stmt"/>
-        <line num="105" count="0" type="stmt"/>
-        <line num="110" count="0" type="stmt"/>
-        <line num="128" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="130" count="0" type="stmt"/>
-        <line num="142" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="143" count="0" type="stmt"/>
-        <line num="149" count="0" type="stmt"/>
-        <line num="154" count="0" type="stmt"/>
-      </file>
+      <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
       <file name="MyLibraryPage.tsx" path="/home/syedq/Desktop/Blinkist/blinkist/src/components/pages/MyLibraryPage.tsx">
         <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="8" count="0" type="stmt"/>
@@ -277,6 +243,43 @@
         <line num="40" count="0" type="stmt"/>
         <line num="64" count="0" type="stmt"/>
         <line num="69" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.pages.EntrepreneurshipPage">
+      <metrics statements="31" coveredstatements="2" conditionals="12" coveredconditionals="0" methods="13" coveredmethods="1"/>
+      <file name="EntrepreneurshipPage.tsx" path="/home/syedq/Desktop/Blinkist/blinkist/src/components/pages/EntrepreneurshipPage/EntrepreneurshipPage.tsx">
+        <metrics statements="31" coveredstatements="2" conditionals="12" coveredconditionals="0" methods="13" coveredmethods="1"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="45" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="67" count="0" type="stmt"/>
+        <line num="84" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="86" count="0" type="stmt"/>
+        <line num="98" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="99" count="0" type="stmt"/>
+        <line num="105" count="0" type="stmt"/>
+        <line num="110" count="0" type="stmt"/>
+        <line num="128" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="130" count="0" type="stmt"/>
+        <line num="142" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="143" count="0" type="stmt"/>
+        <line num="149" count="0" type="stmt"/>
+        <line num="154" count="0" type="stmt"/>
       </file>
     </package>
   </project>

@@ -1,19 +1,19 @@
 import { Container, Grid, Stack, TextField, Typography } from "@mui/material";
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-import CardProps from "../../CardProps";
+import CardProps from "../../../CardProps";
 
-import Banner from "../molecules/Banner/Banner";
+import Banner from "../../molecules/Banner/Banner";
 
-import MyAppBar from "../organisms/AppBar/MyAppBar";
-import Footer from "../molecules/Footer/Footer";
+import MyAppBar from "../../organisms/AppBar/MyAppBar";
+import Footer from "../../molecules/Footer/Footer";
 
 import { useNavigate } from "react-router-dom";
 
 
 import { Search } from "@mui/icons-material";
-import MyButton from "../atoms/MyButton/MyButton";
-import MyCard from "../molecules/MyCard/MyCard";
+import MyButton from "../../atoms/MyButton/MyButton";
+import MyCard from "../../molecules/MyCard/MyCard";
 
 const EntrepreneurshipPage = () => {
   const navigate = useNavigate();
