@@ -18,3 +18,11 @@ test('renders card by title', () => {
     const CardElement = screen.getByText('15-minute read');
     expect(CardElement).toBeInTheDocument();
   });
+  
+ 
+
+  test('renders card by read', () => {
+    render(<MyCard reads='1.9k reads'></MyCard>);
+    const CardElement = screen.getByText('1.9k reads');
+    expect(CardElement).toBeInTheDocument();
+  });
