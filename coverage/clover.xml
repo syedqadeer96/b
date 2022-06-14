@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1655170998785" clover="3.2.0">
-  <project timestamp="1655170998785" name="All files">
+<coverage generated="1655173697102" clover="3.2.0">
+  <project timestamp="1655173697102" name="All files">
     <metrics statements="148" coveredstatements="47" conditionals="30" coveredconditionals="2" methods="69" coveredmethods="18" elements="247" coveredelements="67" complexity="0" loc="148" ncloc="148" packages="12" files="30" classes="30"/>
     <package name="src">
       <metrics statements="22" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="6" coveredmethods="0"/>
@@ -96,19 +96,19 @@
       </file>
       <file name="ExploreTabs.tsx" path="/home/syedq/Desktop/Blinkist/blinkist/src/components/molecules/Explore/ExploreTabs.tsx">
         <metrics statements="13" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="3"/>
-        <line num="15" count="2" type="stmt"/>
-        <line num="16" count="2" type="stmt"/>
-        <line num="18" count="2" type="stmt"/>
-        <line num="19" count="2" type="stmt"/>
+        <line num="15" count="3" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
         <line num="20" count="0" type="stmt"/>
         <line num="22" count="0" type="stmt"/>
-        <line num="24" count="2" type="stmt"/>
-        <line num="26" count="2" type="stmt"/>
+        <line num="24" count="3" type="stmt"/>
+        <line num="26" count="3" type="stmt"/>
         <line num="27" count="0" type="stmt"/>
-        <line num="29" count="2" type="stmt"/>
-        <line num="30" count="2" type="stmt"/>
+        <line num="29" count="3" type="stmt"/>
+        <line num="30" count="3" type="stmt"/>
         <line num="33" count="0" type="stmt"/>
-        <line num="49" count="2" type="stmt"/>
+        <line num="49" count="3" type="stmt"/>
       </file>
     </package>
     <package name="src.components.molecules.Footer">
@@ -142,10 +142,10 @@
       <file name="LabTabs.tsx" path="/home/syedq/Desktop/Blinkist/blinkist/src/components/molecules/MyTab/LabTabs.tsx">
         <metrics statements="5" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
         <line num="10" count="1" type="stmt"/>
-        <line num="11" count="1" type="stmt"/>
-        <line num="13" count="1" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
         <line num="14" count="0" type="stmt"/>
-        <line num="17" count="1" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
       </file>
       <file name="MyTab.stories.tsx" path="/home/syedq/Desktop/Blinkist/blinkist/src/components/molecules/MyTab/MyTab.stories.tsx">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
@@ -161,11 +161,11 @@
       <file name="Rendercards.tsx" path="/home/syedq/Desktop/Blinkist/blinkist/src/components/molecules/Rendercards/Rendercards.tsx">
         <metrics statements="14" coveredstatements="5" conditionals="8" coveredconditionals="0" methods="6" coveredmethods="2"/>
         <line num="16" count="1" type="stmt"/>
-        <line num="17" count="1" type="stmt"/>
-        <line num="18" count="1" type="stmt"/>
-        <line num="19" count="1" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
         <line num="20" count="0" type="stmt"/>
-        <line num="24" count="1" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
         <line num="27" count="0" type="cond" truecount="0" falsecount="4"/>
         <line num="28" count="0" type="stmt"/>
         <line num="43" count="0" type="stmt"/>
